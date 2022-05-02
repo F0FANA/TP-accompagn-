@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./wetransfer_bootstrap_2022-05-02_0644/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>boostrap live</title>
+</head>
+<body>
+    <!--inverser les couleurs de la navbar et rôle, sert à la navigation-->
+<div class="navbar navbar-fixed-top navbar-inverse"
+        role="navigation">
+         <!--tout ce qui va être contenu au sein de la navbar-->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"></button>
+            <span class="sr-only">Toggle navigation</span>
+
+            <a href="bootstrap.live.html" class="navbar-brand">ADIMAKER</a>
+
+        </div>
+    <!--permet de la cacher et de l'afficher-->
+    <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+        <!--li item list-->
+            <li class="active">
+                <a href="bootstrap.live.html" class="navbar-brand">Accueil</a>
+            </li>
+            <li >
+                <a href="bootstrap.live.html" class="navbar-brand">TP</a>
+            </li>
+            <li >
+                <a href="bootstrap.live.html" class="navbar-brand"> Eval </a>
+            </li>
+            <li>
+                <a href="bootstrap.live.html" class="navbar-brand">Notes</a>
+            </li>
+        </ul>
+        
+        
+    </div>
+</div>   
+<div class="container contenu">
+        <h1>Evaluation Bootstrap semaine prochaine</h1>
+        <!--caroussel-->
+        <div id="myCarousel" class="carousel-slide" data-ride="carousel" >
+            <!--Liste des photos-->
+            <ol class="carousel-indicators">
+                <!--va vers l'id/data target-->
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+
+            </ol>
+            <!--Intérieur du Carousel-->
+            <div class="inner-carousel">
+                <div class="active">
+                    <img src="./wetransfer_bootstrap_2022-05-02_0644/images/caroussel1.jpg" alt="eleve">
+                    <div class="carousel-caption">ADIMAKER</div>
+                </div>
+                <div class="items" >
+                    <img src="./wetransfer_bootstrap_2022-05-02_0644/images/caroussel2.jpg" alt="eleve">
+                    <div class="carousel-caption">ADIMAKER</div>
+                </div>
+        </div>
+        
+        
+
+    </div>
+</body>
+</html>
